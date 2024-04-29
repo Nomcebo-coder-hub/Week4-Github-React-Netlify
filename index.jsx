@@ -9,6 +9,15 @@ function App() {
     <div className="App">
       <h1>Weather App</h1>
       <SearchEngine />
+      <footer>
+        Sourced from:{" "}
+        <a
+          href="https://github.com/Nomcebo-coder-hub/Week4-Github-React-Netlify"
+          target="_blank"
+        >
+          Github
+        </a>
+      </footer>
     </div>
   );
 }
